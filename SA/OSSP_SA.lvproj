@@ -24,8 +24,10 @@
 			<Item Name="GanntChart_Element.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/GanntChart_Element.ctl"/>
 			<Item Name="Gap.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/Gap.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Problem Instance Type.ctl" Type="VI" URL="../../GA/Controls/Problem Instance Type.ctl"/>
 			<Item Name="Problem_Line_Constant.vi" Type="VI" URL="../../Classes/OSSP_Problem_Class/Problem_Line_Constant.vi"/>
-			<Item Name="States.ctl" Type="VI" URL="../Controls/States.ctl"/>
+			<Item Name="Scheduler Type.ctl" Type="VI" URL="../../GA/Controls/Scheduler Type.ctl"/>
+			<Item Name="States_SA.ctl" Type="VI" URL="../Controls/States_SA.ctl"/>
 			<Item Name="Time_Interval_List_Element.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/Time_Interval_List_Element.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

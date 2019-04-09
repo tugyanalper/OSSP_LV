@@ -21,7 +21,6 @@
 		</Item>
 		<Item Name="GA.lvclass" Type="LVClass" URL="../../Classes/GA.lvclass"/>
 		<Item Name="GanntChart.lvclass" Type="LVClass" URL="../../Classes/GanntChart.lvclass"/>
-		<Item Name="Giffler Thompson Engine.vi" Type="VI" URL="../../Helper VIs/Giffler Thompson Engine.vi"/>
 		<Item Name="OSSP_Problem.lvclass" Type="LVClass" URL="../../Classes/OSSP_Problem.lvclass"/>
 		<Item Name="SA.lvclass" Type="LVClass" URL="../../Classes/SA.lvclass"/>
 		<Item Name="Top_Level.vi" Type="VI" URL="../Top_Level.vi"/>
