@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE solution PUBLIC "" "LiSA.dtd">
+<solution xmlns:LiSA="http://lisa.math.uni-magdeburg.de">
+  <problem>
+    <alpha env="O"/>
+    <beta/>
+    <gamma objective="Sum_Ti"/>
+  </problem>
+  <values m="6" n="6">
+    <processing_times model="lisa_native">{ 
+ { 958   9  23   8   1   1 } 
+ {  27   6   1 625 324  17 } 
+ {   1 367   1  16   1 614 } 
+ {   6   1 351 269   7 366 } 
+ {   7  40 623  55 274   1 } 
+ {   1 577   1  27 393   1 } 
+} 
+</processing_times>
+    <operation_set model="lisa_native">{ 
+ {   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1 } 
+} 
+</operation_set>
+    <due_dates>{ 1000 1000 1000 1000 1000 1000 } 
+</due_dates>
+  </values>
+  <schedule m="6" n="6" semiactive="yes">
+    <plan model="lisa_native">{ 
+ {   6   8   5   2   4   1 } 
+ {   2   7   1   6   5   9 } 
+ {   1   6   4   7   2   5 } 
+ {   9   1   6   4   3   8 } 
+ {  10   2   8   5   6   7 } 
+ {   4   5   3   8   7   2 } 
+} 
+</plan>
+    <completion_times model="lisa_native">{ 
+ { 991 1000  33   9  10   1 } 
+ {  28 991   1 977 352 1012 } 
+ {   1 985   4 1001   2 618 } 
+ { 1001   1 629 278   9 995 } 
+ { 1259  41 1252 333 626 627 } 
+ {  29 618   3 1046 1019   2 } 
+} 
+</completion_times>
+  </schedule>
+</solution>

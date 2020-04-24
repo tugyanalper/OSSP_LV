@@ -1,0 +1,13 @@
+=======================
+==GT Active Scheduler==
+=======================
+1) 41 (Optimal 41)
+2) 76, 77, 76, 76 (optimal 73)
+3) 34 (Optimal 34)
+4) 65, 57, 52, 70, 65 (Optimal 52)
+5) 89, 90, 87, 90 (Optimal 72)
+6) 42, 42, 42, 42 (Optimal 41)
+7) 47, 40, 45, 45 (Optimal 40) (Reorder ON)
+8) 37, 37, 37 (Optimal 37) (Reorder ON)
+9) 54, 63, 65, 54, 54 (Optimal 54) (Reorder ON)
+10) 50, 33, 48, 33, 50, 48 (Optimal 33)(Reorder OFF)

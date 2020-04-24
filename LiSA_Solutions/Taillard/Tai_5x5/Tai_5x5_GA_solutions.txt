@@ -1,0 +1,13 @@
+=======================
+==GT Active Scheduler==
+=======================
+1) 120, 129, 95, 133  (Optimal 55)
+2) 100, 76, 81, 99 (optimal 51)
+3) 128, 147, 147(Optimal 79)
+4) 49, 50, 56, 49 (Optimal 47)
+5) 111,111,110 (Optimal 62)
+6) (Optimal 60)
+7) (Optimal 58) 
+8) (Optimal 66) 
+9) (Optimal 54) 
+10) (Optimal 97) 

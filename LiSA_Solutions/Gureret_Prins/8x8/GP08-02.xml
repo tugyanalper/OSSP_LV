@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE solution PUBLIC "" "LiSA.dtd">
+<solution xmlns:LiSA="http://lisa.math.uni-magdeburg.de">
+  <problem>
+    <alpha env="O"/>
+    <beta/>
+    <gamma objective="Sum_Ti"/>
+  </problem>
+  <values m="8" n="8">
+    <processing_times model="lisa_native">{ 
+ {  11   1 557   4   7   2  68 350 } 
+ {  32   1   1  16 374  41 534   1 } 
+ { 154   1   1  15 371   5 112 341 } 
+ {   1 594   1 150 227   1   1  25 } 
+ { 381   1 130   1  18   1 188 280 } 
+ {   1 281 305 102   1 308   1   1 } 
+ { 268 118   2 497   1 112   1   1 } 
+ { 152   3   3 215   1 530  95   1 } 
+} 
+</processing_times>
+    <operation_set model="lisa_native">{ 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+ {   1   1   1   1   1   1   1   1 } 
+} 
+</operation_set>
+    <due_dates>{ 1000 1000 1000 1000 1000 1000 1000 1000 } 
+</due_dates>
+  </values>
+  <schedule m="8" n="8" semiactive="yes">
+    <plan model="lisa_native">{ 
+ {  13  12   8   1   7   2   9  11 } 
+ {   5   2   3   8  11   9   7  10 } 
+ {  10   1   2  12   9   3  11   4 } 
+ {   4   9   1  10   8   6   2   3 } 
+ {   7   3  11   4   6   5  10   8 } 
+ {   2   4   9   6   3  11   1   5 } 
+ {   8  11   4   5   2  10   3   1 } 
+ {  11  10   5   9   4   7   6   2 } 
+} 
+</plan>
+    <completion_times model="lisa_native">{ 
+ { 1087 1073 594   4  37   6 705 1072 } 
+ {  60   2   3 653 1113 694 637 722 } 
+ { 924   1   2 1051 739  11 1036 368 } 
+ {  28 878   1 1028 264  29   2  27 } 
+ { 441   3 1039   5  30  12 909 721 } 
+ {   2 284 909 604   3 1217   1 369 } 
+ { 770 1000   5 502   2 882   3   1 } 
+ { 1076 881   8 868   4 633 103   2 } 
+} 
+</completion_times>
+  </schedule>
+</solution>
