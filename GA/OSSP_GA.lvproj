@@ -23,12 +23,17 @@
 		<Item Name="Helper VIs" Type="Folder" URL="../../Helper VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="VNS" Type="Folder" URL="../../VNS">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Graph.lvclass" Type="LVClass" URL="../../Classes/Graph.lvclass"/>
 		<Item Name="GA.lvclass" Type="LVClass" URL="../../Classes/GA.lvclass"/>
 		<Item Name="GanntChart.lvclass" Type="LVClass" URL="../../Classes/GanntChart.lvclass"/>
 		<Item Name="OSSP_Problem.lvclass" Type="LVClass" URL="../../Classes/OSSP_Problem.lvclass"/>
 		<Item Name="SA.lvclass" Type="LVClass" URL="../../Classes/SA.lvclass"/>
 		<Item Name="Top_Level.vi" Type="VI" URL="../Top_Level.vi"/>
+		<Item Name="Run TopLevel Several Times.vi" Type="VI" URL="../Run TopLevel Several Times.vi"/>
+		<Item Name="Calculate Tardiness (FIFO Engine).vi" Type="VI" URL="../../Classes/GA_Class/Calculate Tardiness (FIFO Engine).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced Plotting Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/Advanced Plotting Toolkit.lvlib"/>
