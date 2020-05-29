@@ -58,11 +58,11 @@
 		<Item Name="Create Graph from Solution(Schedule).vi" Type="VI" URL="../Graph_Class/Create Graph from Solution(Schedule).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'6!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$5&gt;S98"I,GRW9WRB=X-!#5&gt;S98"I)'^V&gt;!!&amp;!!9!!#B!1!!#``````````]!"B:+&lt;W)A4X*E:8)A:G^S)%VB9WBJ&lt;G6T!!!I1%!!!P``````````!!9847&amp;D;'FO:3"0=G2F=C"G&lt;X)A3G^C=QE!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!:1!5!%EZV&lt;7*F=C"P:C".97.I;7ZF=Q!!&amp;5!&amp;!!Z/&gt;7VC:8)A&lt;W9A3G^C=Q!!*E"Q!"Y!!!].2X*B='AO&lt;(:D&lt;'&amp;T=Q!.2X*B='AO&lt;(:D&lt;'&amp;T=Q"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!A!#1!+!!M!$!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!)1!!!!%A!!!"!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342713874</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268972050</Property>
 		</Item>
 		<Item Name="Find All Paths.vi" Type="VI" URL="../Graph_Class/Find All Paths.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!!Q!!&amp;E"!!!,``````````Q!&amp;"8"B&gt;'BT!#2!=!!?!!!0$5&gt;S98"I,GRW9WRB=X-!#E&gt;S98"I)'^V&gt;#!!!"*!1!!"`````Q!&amp;"("B&gt;'A!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!$!!J&amp;&lt;G1A6G6S&gt;'6Y!!!41!-!$&amp;.U98*U)&amp;:F=H2F?!!!)E"Q!"Y!!!].2X*B='AO&lt;(:D&lt;'&amp;T=Q!)2X*B='AA37Y!!'%!]!!-!!-!"!!'!!=!"!!%!!1!#!!*!!I!#Q!-!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!1I!!!!+!!!!#!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
@@ -76,11 +76,11 @@
 		<Item Name="Find All Paths_DFS.vi" Type="VI" URL="../Graph_Class/Find All Paths_DFS.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%3!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!!Q!!'E"!!!,``````````Q!&amp;#6"B&gt;'BT)%2'5Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!!Q!+27ZE)&amp;:F=H2F?!!!%U!$!!R4&gt;'&amp;S&gt;#"7:8*U:8A!!"*!5QV(=G&amp;Q;#"798*J97ZU!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%A!!!"!!!!!1!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342713874</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268972050</Property>
 		</Item>
 		<Item Name="ScratchPad.vi" Type="VI" URL="../Graph_Class/ScratchPad.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>

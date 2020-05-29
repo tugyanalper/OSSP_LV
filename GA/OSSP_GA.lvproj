@@ -26,14 +26,22 @@
 		<Item Name="VNS" Type="Folder" URL="../../VNS">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="FGV" Type="Folder" URL="../FGV">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="ScratchPad VIs" Type="Folder" URL="../../ScratchPad VIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Results_80 Runs" Type="Folder" URL="../../Results_80 Runs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Graph.lvclass" Type="LVClass" URL="../../Classes/Graph.lvclass"/>
 		<Item Name="GA.lvclass" Type="LVClass" URL="../../Classes/GA.lvclass"/>
-		<Item Name="GanntChart.lvclass" Type="LVClass" URL="../../Classes/GanntChart.lvclass"/>
+		<Item Name="Scheduler.lvclass" Type="LVClass" URL="../../Classes/Scheduler.lvclass"/>
 		<Item Name="OSSP_Problem.lvclass" Type="LVClass" URL="../../Classes/OSSP_Problem.lvclass"/>
 		<Item Name="SA.lvclass" Type="LVClass" URL="../../Classes/SA.lvclass"/>
 		<Item Name="Top_Level.vi" Type="VI" URL="../Top_Level.vi"/>
 		<Item Name="Run TopLevel Several Times.vi" Type="VI" URL="../Run TopLevel Several Times.vi"/>
-		<Item Name="Calculate Tardiness (FIFO Engine).vi" Type="VI" URL="../../Classes/GA_Class/Calculate Tardiness (FIFO Engine).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced Plotting Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/Advanced Plotting Toolkit.lvlib"/>
@@ -263,8 +271,6 @@
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="Front Panle Menu.ctl" Type="VI" URL="../../Classes/GA_Class/Controls/Front Panle Menu.ctl"/>
-			<Item Name="GanntChart_Element.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/GanntChart_Element.ctl"/>
-			<Item Name="Gap.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/Gap.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -275,10 +281,53 @@
 			<Item Name="Solution_GA.ctl" Type="VI" URL="../../Classes/GA_Class/Controls/Solution_GA.ctl"/>
 			<Item Name="States_SA.ctl" Type="VI" URL="../../SA/Controls/States_SA.ctl"/>
 			<Item Name="Strategy.ctl" Type="VI" URL="../../Classes/GA_Class/Controls/Strategy.ctl"/>
-			<Item Name="Time_Interval_List_Element.ctl" Type="VI" URL="../../Classes/GanntChart_Class/Controls/Time_Interval_List_Element.ctl"/>
 			<Item Name="Find Best Solution In Population.vi" Type="VI" URL="../../Classes/GA_Class/Find Best Solution In Population.vi"/>
-			<Item Name="Operation to Machine Job Tuple.vi" Type="VI" URL="../../../../Classes/GanntChart_Class/Operation to Machine Job Tuple.vi"/>
+			<Item Name="GanntChart_Element.ctl" Type="VI" URL="../../Classes/Scheduler_Class/Controls/GanntChart_Element.ctl"/>
+			<Item Name="Time_Interval_List_Element.ctl" Type="VI" URL="../../Classes/Scheduler_Class/Controls/Time_Interval_List_Element.ctl"/>
+			<Item Name="Gap.ctl" Type="VI" URL="../../Classes/Scheduler_Class/Controls/Gap.ctl"/>
+			<Item Name="Reorder Schedule(Prins FIFO) based on Start Times.vi" Type="VI" URL="../../Classes/Scheduler_Class/Prins FIFO Scheduler Methods and Controls/Methods/Reorder Schedule(Prins FIFO) based on Start Times.vi"/>
+			<Item Name="Subsequence.ctl" Type="VI" URL="../../Classes/GA_Class/Controls/Subsequence.ctl"/>
+			<Item Name="Appropraite Subsequences for SXX.ctl" Type="VI" URL="../../Classes/GA_Class/Controls/Appropraite Subsequences for SXX.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="OSSP_GA" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{315ACF52-61C0-4A46-AA5C-7FD148144936}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6777B3A0-FC6C-4B2F-A7A6-1F66BFEEE417}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A9B54783-72B9-4745-A2B3-D7C5C16780E6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OSSP_GA</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{21E2D3EF-9DF8-4C67-A299-E5AB271569AD}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">OSSP_GA.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OSSP_GA.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B407F98B-A2A8-4033-96BC-089FE224C2C1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Top_Level.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">OSSP_GA</Property>
+				<Property Name="TgtF_internalName" Type="Str">OSSP_GA</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">OSSP_GA</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{14B12B08-26E4-4610-82BC-91618DB33C61}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">OSSP_GA.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
